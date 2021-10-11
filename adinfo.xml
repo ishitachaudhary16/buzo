@@ -1,0 +1,21 @@
+<Advertisements>
+  <Ad>
+    <ImageUrl>http://localhost/swapna/images/welcome1.jpg</ImageUrl>
+    <NavigateUrl>http://localhost/swapna/SPMT/SPMT PROJECT/login.aspx</NavigateUrl>
+    <AlternateText>welcometext</AlternateText>
+    <Impressions>3</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://localhost/swapna/images/images[58].jpg</ImageUrl>
+    <NavigateUrl>http://localhost/swapna/SPMT/SPMT PROJECT/login.aspx</NavigateUrl>
+    <AlternateText>image1</AlternateText>
+    <Impressions>5</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://localhost/swapna/images/working.jpg</ImageUrl>
+    <NavigateUrl>http://localhost/swapna/SPMT/SPMT PROJECT/login.aspx</NavigateUrl>
+    <AlternateText>image2</AlternateText>
+    <Impressions>5</Impressions>
+  </Ad>
+
+</Advertisements>

@@ -1,0 +1,95 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%--<%@ Register Src="welcome.ascx" TagName="welcome" TagPrefix="uc1" %>
+--%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="background-color: #ffcc99">
+    
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        &nbsp;
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            <br />
+            <br />
+            <br />
+            <asp:Label ID="Label2" runat="server" Height="44px" Style="z-index: 100; left: 360px;
+                position: absolute; top: 15px" Width="590px"></asp:Label>
+            &nbsp;&nbsp;<br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</asp:contentplaceholder>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br />
+        &nbsp;
+        &nbsp;&nbsp;&nbsp;<br />
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        <asp:Label ID="Label1" runat="server" BackColor="#FFCC99" Height="24px" Text="Project Tracking System Copyrights © Reserved 2008 "
+            Width="400px"></asp:Label><br />
+        <asp:Image ID="Image1" runat="server" Height="152px" ImageUrl="~/main_banner3.gif"
+            Style="z-index: 100; left: 8px; position: absolute; top: -22px" Width="1056px" />
+        <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Names="Palatino Linotype"
+            Font-Size="XX-Large" Height="45px" Style="z-index: 103; left: 296px; position: absolute;
+            top: 13px" Text="Project Tracking System" Width="541px"></asp:Label>
+        &nbsp; &nbsp; &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;
+        <asp:Menu ID="Menu1" runat="server" Height="24px" Style="z-index: 102; left: 240px;
+            position: absolute; top: 80px" Width="512px" Font-Bold="True" ForeColor="Black" Orientation="Horizontal" Font-Overline="False" Font-Size="Medium">
+            <Items>
+            <asp:MenuItem Text="Home |" Value="Home" NavigateUrl="~/Default.aspx"></asp:MenuItem>
+               <asp:MenuItem NavigateUrl="~/aboutus.aspx" Text="About Us |" Value="About Us"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/register.aspx" Text="Register |" Value="Register"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="login.aspx" Text="Login |" Value="Login"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="contactus.aspx" Text="ContactUs |" Value="ContactUs"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="help.aspx" Text="Help |" Value="Help"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="sitemap.aspx" Text="Sitemap |" Value="Sitemap">
+                </asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/logout.aspx" Text="LogOut" Value="LogOut">
+                </asp:MenuItem>
+            </Items>
+        </asp:Menu>
+        &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;<br />
+        <br />
+        <br />
+        <br />
+        &nbsp;</div>
+    </form>
+</body>
+</html>
